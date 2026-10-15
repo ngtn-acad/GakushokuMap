@@ -3,8 +3,8 @@ from maps.NagataniOsusume import NagataniOsusume
 
 # ↓のリストには、メンバーの各オススメ学食が格納されます。
 data = [
-    NagataniOsusume(), 
     GakushokuSample(), 
+    NagataniOsusume(), 
 ] 
 
 for rank, d in enumerate(data, start=1):
